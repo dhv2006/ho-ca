@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HC</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./hoca.css">
+	<script src="./hoca.js"></script>
+	<style>
+		body {
+	  
+		  background-image: url('./wallpaperflare.com_wallpaper.jpg');
+		  height: 100%; 
+		  background-attachment: fixed;
+		  background-size: 100% 100%;
+		  
+		
+		  background-repeat: no-repeat;
+		 
+		}
+		</style>
+	
+</head>
+<body>
+<div  class="bg">
+	
+	<div id="shark"> <img src="./tumblr_bd52a9cc928b2f30348a332d48d58b4b_c47941bd_1280.gif"; width ="450"; height="500"></div>
+    <div id="crab"> <img src="./crab.gif"; width ="60"; height="60"></div>
+    <div id="fish1"> <img src="./goldFishSchool.png"; width ="190"; height="200"></div>
+    <div id="squid"> <img src="./squid-jump-jump.gif"; width ="130"; height="160"></div>
+    <div id="fish2"> <img src="./2388334_5699b.gif"; width ="100"; height="100"></div>
+</div> 
+
+	<button type="button" onclick="myFunction1()">Background 1</button>
+
+    <button type="button" onclick="myFunction2()">Background 2</button> 
+
+<audio id="myAudio1">
+<source src="./y2mate.com - Như Quỳnh  Vùng Lá Me Bay Anh Việt Thanh.mp3" type ="audio/mpeg">
+</audio>
+<button onclick="playAudio1()" type="button">Play Audio 1</button>
+<button onclick="pauseAudio1()" type="button">Pause Audio 1</button> 
+
+<script>
+var x = document.getElementById("myAudio1"); 
+
+function playAudio1() { 
+  x.play(); 
+} 
+
+function pauseAudio1() { 
+  x.pause(); 
+} 
+</script>
+<audio id="myAudio2">
+	<source src="./y2mate.com - Quang Lê  Mai Thiên Vân  Gõ Cửa Trái Tim Vinh Sử PBN 92.mp3" type ="audio/mpeg">
+	</audio>
+	<button onclick="playAudio2()" type="button">Play Audio 2</button>
+	<button onclick="pauseAudio2()" type="button">Pause Audio 2</button> 
+	
+	<script>
+	var y = document.getElementById("myAudio2"); 
+	
+	function playAudio2() { 
+	  y.play(); 
+	} 
+	
+	function pauseAudio2() { 
+	  y.pause(); 
+	} 
+	</script>
+	
+</body>
+</html>
